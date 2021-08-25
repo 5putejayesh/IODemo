@@ -8,7 +8,7 @@ public class IODemoTest {
 	public static void main(String[] args) {
 		try {
 			FileOutputStream fos= new FileOutputStream("fos.txt");
-			fos.write((int)6565);
+			fos.write((int)74);
 			fos.close();
 		}  catch (IOException e) {
 			// TODO Auto-generated catch block
